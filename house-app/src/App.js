@@ -3,10 +3,12 @@ import { HousesList } from './Components/HousesList';
 
 class App extends Component {
     render() {
-        return {
+        return (
             <div>
-                <HousesList props= {{test: data}} />
+                <HousesList/>
             </div>
-        }
+        )
     }
 }
+
+export default App;

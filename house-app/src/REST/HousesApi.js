@@ -1,4 +1,4 @@
-const HOUSES_ENDPOINT = 'https://mockapi.io/projects/631cf0b44fa7d3264cb9b79a';
+const HOUSES_ENDPOINT = 'https://ancient-taiga-31359.herokuapp.com/api/houses';
 
 class HousesApi {
     get = async () => {
@@ -27,4 +27,4 @@ class HousesApi {
     }
 }
 
-export const HousesApi = new HousesApi();
+export const housesApi = new HousesApi();
